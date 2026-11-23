@@ -8,7 +8,27 @@
 */
 
 // Start Coding Here
+// function sendNotification(callback){
+//     return callback();
+// }
+// function postCreated(){
+//     return `📝 แจ้งเตือน: โพสต์ของคุณถูกสร้างสำเร็จ!`
+// }
+// function postLiked(){
+//     return `👍 แจ้งเตือน: มีคนมากดไลค์โพสต์ของคุณ!`
+// }
+// function postCommented(){
+//     return `💬 แจ้งเตือน: มีคนมาคอมเมนต์ในโพสต์ของคุณ!`
+// }
+// function postShared(){
+//     return `🔄 แจ้งเตือน: มีคนแชร์โพสต์ของคุณ!`
+// }
 
+const sendNotification =(callback)=> callback() ;
+const postCreated = () => `📝 แจ้งเตือน: โพสต์ของคุณถูกสร้างสำเร็จ!` ;
+const postLiked =() => `👍 แจ้งเตือน: มีคนมากดไลค์โพสต์ของคุณ!`;
+const postCommented =() => `💬 แจ้งเตือน: มีคนมาคอมเมนต์ในโพสต์ของคุณ!`;
+const postShared =() => `🔄 แจ้งเตือน: มีคนแชร์โพสต์ของคุณ!`;
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
 console.log(sendNotification(postCreated));   // 📝 แจ้งเตือน: โพสต์ของคุณถูกสร้างสำเร็จ!
