@@ -7,6 +7,22 @@
 
 let damage = 30;
 // Start Coding Here
+// function playerAction(callback){
+//     return callback();
+// }
+
+const playerAction = (callback) => callback() ;
+
+const attack =() => `จมตีสำเร็จ! สร้างความเสียหาย ${damage} แต้ม` ;
+
+// function attack(){
+//     return `จมตีสำเร็จ! สร้างความเสียหาย ${damage} แต้ม`
+// }
+
+const runAway = () => "หนีสำเร็จ! รอดตายหวุดหวิด!" ;
+// function runAway(){
+//     return "หนีสำเร็จ! รอดตายหวุดหวิด!"
+// }
 
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
